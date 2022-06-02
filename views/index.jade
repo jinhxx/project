@@ -1,5 +1,29 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  //- h1= title
+  //- p Welcome to #{title}
+  
+  div#header 
+    h1 header 
+  
+  div#box 
+    div#gps_box
+      h2 GPS 
+
+    div#cctv 
+      h2 CCTV  
+    
+    //- div#io_cap_box 
+    div#auto_box 
+      div#io_box 
+        h2 io_box
+        p box_1  
+      div#cap_box 
+        div#box1
+          p IO 
+        div#box2
+          p PUSH
+  
+  //- footer#footer_
+  //-   p footer
